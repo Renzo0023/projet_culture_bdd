@@ -82,6 +82,7 @@ La base de données est organisée autour de trois entités principales :
 ### Table `admins`
 
 Contient les informations d'authentification des administrateurs.
+Les identifiants du compte dans la base de donnée sont admin et admin.
 
 ### Table `auteurs`
 
