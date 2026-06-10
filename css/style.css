@@ -1,0 +1,26 @@
+/* css/style.css */
+
+/* Styles personnalisés au-delà de Tailwind, ou overrides */
+
+/* Quelques animations (elles peuvent rester ici car ce sont des CSS standard) */
+@keyframes fade-in-down {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.animate-fade-in-down {
+    animation: fade-in-down 0.8s ease-out forwards;
+}
+
+/* Utilité CSS pour limiter le texte à 3 lignes (peut rester ici car c'est une règle CSS pure) */
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
